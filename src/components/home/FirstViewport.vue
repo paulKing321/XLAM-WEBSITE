@@ -1,7 +1,7 @@
 <template>
   <div class="first">
-    <div class="first-text">
-      <h1><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
+    <div class="first-text w-4/5 mx-auto pt-56 md:pt-60">
+      <h1 class="text-4xl md:text-7xl lg:text-8xl xl:text-9xl font-bold my-4"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
       <p>Your surest audio visual equipments plug</p>
     </div>
     <div class="first-btn">
@@ -31,10 +31,10 @@
 .first-text {
   text-align: center;
   color: #fff;
-  padding-top: 180px;
+  /*padding-top: 180px;*/
 }
 .first-text h1{
-  font-size: 130px;
+  /*font-size: 130px;*/
   font-family: 'Kaushan Script', cursive;
 }
 .first-text p{
@@ -51,7 +51,7 @@
   width: 150px;
   text-decoration: none;
   display: inline-block;
-  margin: 0 10px;
+  margin: 10px;
   padding: 12px 0;
   color: #fff;
   border: .5px solid #fff;

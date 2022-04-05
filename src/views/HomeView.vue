@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="w-full min-h-screen">
    <FirstViewport/>
    <SecondViewport/>
   </div>
@@ -20,9 +20,5 @@ export default class HomeView extends Vue {}
 </script>
 
 <style scoped>
-.home {
-  width: 100%;
-  height: 100%;
 
-}
 </style>
