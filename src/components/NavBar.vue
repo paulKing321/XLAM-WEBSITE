@@ -1,9 +1,6 @@
 <template>
     <div class="f">
       <div class="sideNav" v-if="isShowing">
-        <!-- <div class="logo">
-          <h2 class="italic text-white"><span class="text-[#f21137] font-bold font-mono">X</span>LAM</h2>
-        </div> -->
         <div class="flex flex-col justify-center mt-24 text-white gap-y-10">
           <router-link to="/">Home</router-link>
           <router-link to="/services">Services</router-link>
