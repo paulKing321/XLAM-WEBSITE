@@ -1,7 +1,7 @@
 <template>
   <div class="first">
-    <div class="first-text w-4/5 mx-auto pt-56 md:pt-60">
-      <h1 class="text-4xl md:text-7xl lg:text-8xl xl:text-9xl font-bold my-4"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
+    <div class="w-4/5 pt-56 mx-auto first-text md:pt-60">
+      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
       <p>Your surest audio visual equipments plug</p>
     </div>
     <div class="first-btn">
@@ -12,14 +12,14 @@
 </template>
 
 // <script lang="ts">
-// import { defineComponent } from 'vue'
+import { defineComponent } from 'vue'
 
-// export default defineComponent({
-//   setup() {
-//     const
-//   },
-// })
-// </script>
+export default defineComponent({
+  // setup() {
+  //   const
+  // },
+})
+</script>
 
 <style scoped>
 .first {
