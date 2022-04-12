@@ -5,8 +5,8 @@
       <p>Your surest audio visual equipments plug</p>
     </div>
     <div class="first-btn">
-      <router-link class="a" to=""><span></span>Find Out</router-link>
-      <router-link class="a" to=""><span></span>Read More</router-link>
+      <router-link class="a" to="/services"><span></span>Our Services</router-link>
+      <router-link class="a" to="/contact-us"><span></span>Reach Us</router-link>
     </div>
     </div>
 </template>
