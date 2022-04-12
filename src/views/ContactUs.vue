@@ -1,33 +1,43 @@
 <template>
-  <div class="contact">
-    <h1>Contact</h1>
-    <ul>
-      <li v-for="icon in icons" :key="icon.name">
-        <span class="material-icons">{{ icon.name }}</span>
-        <div>{{ icon.text }}</div>
-      </li>
-    </ul>
+  <div class="w-full min-h-screen bg-[#F21137]">
+    <TheLogo/>
+    <NavBar/>
+    <div class="contact">
+      <h1>Contact Us</h1>
+      <ul>
+        <li v-for="icon in icons" :key="icon.name">
+          <span class="material-icons">{{ icon.name }}</span>
+          <div>{{ icon.text }}</div>
+        </li>
+      </ul>
+    </div>
+    <TheFooter/>
   </div>
 </template>
 
 <script lang="ts">
 import { ref } from "vue";
+import TheLogo from "@/components/TheLogo.vue";
+import NavBar from "@/components/NavBar.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 export default {
-  setup() {
-    const icons = ref ([
-      {name: 'local_phone', text: 'phone'},
-      {name: 'whatsapp', text: 'whatsapp'},
-      {name: 'alternate_email', text: 'email'},
-      {name: 'facebook', text: 'facebook'}
-    ])
-
-    return { icons }
-  }
+    setup() {
+        const icons = ref([
+            { name: "local_phone", text: "phone"  },
+            { name: "whatsapp", text: "whatsapp" },
+            { name: "alternate_email", text: "email" },
+            { name: "facebook", text: "facebook" }
+        ]);
+        return { icons };
+    },
+    components: { TheLogo, NavBar, TheFooter }
 }
 </script>
 
 <style scoped>
+.contact {
+}
 .contact ul {
   padding: 0;
   display: grid;

@@ -4,6 +4,7 @@
    <NavBar/>
    <FirstViewport/>
    <SecondViewport/>
+   <ThirdViewport/>
    <TheFooter/>
   </div>
 </template>
@@ -28,6 +29,7 @@ import TheLogo from '../components/TheLogo.vue';
 import TheFooter from '../components/TheFooter.vue';
 import FirstViewport from '../components/home/FirstViewport.vue'; // @ is an alias to /src
 import SecondViewport from '../components/home/SecondViewport.vue';
+import ThirdViewport from '../components/home/ThirdViewport.vue';
 
 export default defineComponent({
   // setup() {
@@ -39,6 +41,7 @@ export default defineComponent({
     TheFooter,
     FirstViewport,
     SecondViewport,
+    ThirdViewport,
 }
 })
 </script>
