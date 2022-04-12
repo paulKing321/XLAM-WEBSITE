@@ -2,6 +2,7 @@
   <div class="w-full min-h-screen bg-[#F21137]">
     <TheLogo/>
     <NavBar/>
+    <FirstViewport/>
     <div class="contact">
       <h1>Contact Us</h1>
       <ul>
@@ -20,6 +21,7 @@ import { ref } from "vue";
 import TheLogo from "@/components/TheLogo.vue";
 import NavBar from "@/components/NavBar.vue";
 import TheFooter from "@/components/TheFooter.vue";
+import FirstViewport from "@/components/home/FirstViewport.vue";
 
 export default {
     setup() {
@@ -31,7 +33,7 @@ export default {
         ]);
         return { icons };
     },
-    components: { TheLogo, NavBar, TheFooter }
+    components: { TheLogo, NavBar, TheFooter, FirstViewport }
 }
 </script>
 
