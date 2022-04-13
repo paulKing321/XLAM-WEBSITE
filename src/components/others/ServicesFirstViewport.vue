@@ -1,28 +1,11 @@
 <template>
   <div class="first">
     <div class="w-4/5 pt-56 mx-auto first-text md:pt-60">
-      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
+      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">O</span>ur <span class="red-text">S</span>ervices</h1>
       <p>Your surest audio visual equipments plug</p>
+      <p class="mt-24 text-2xl text-white">Do you need high definition projectors or Led Screen or Led Tv to make your events come to life or you need just for your presentation or for your wedding slideshow then look no further, at Xlam Multimedia Services we've got you covered. We are here to add colors to your events. </p>
     </div>
-    <div class="first-btn">
-      <router-link class="a" to="/services"><span></span>Our Services</router-link>
-      <router-link class="a" to="/contact-us"><span></span>Reach Us</router-link>
     </div>
-    <div class="justify-center hidden w-4/5 mx-auto mt-20 text-base text-white xl:mt-32 xl:text-xl md:grid-cols-3 md:grid">
-      <div class="flex gap-x-8">
-        <i class="fa-solid fa-droplet"></i>
-        <h1>Quality Delivery</h1>
-      </div>
-      <div class="flex gap-x-8">
-        <i class="fa-solid fa-droplet"></i>
-        <h1>Customer Satisfaction</h1>
-      </div>
-      <div class="flex gap-x-8">
-        <i class="fa-solid fa-droplet"></i>
-        <h1>Swift Response</h1>
-      </div>
-    </div>
-  </div>
 </template>
 
 // <script lang="ts">
@@ -37,8 +20,7 @@ export default defineComponent({
 
 <style scoped>
 .first {
-  background: linear-gradient(rgba(0,0,0,0.5),#68020F), url(../../assets/images/picture-5.jpg);
-  
+  background: linear-gradient(rgba(0,0,0,0.5),#68020F), url(../../assets/images/picture-8.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;

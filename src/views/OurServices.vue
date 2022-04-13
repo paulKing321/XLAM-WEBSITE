@@ -2,7 +2,7 @@
   <div class="w-full min-h-screen">
     <TheLogo/>
     <NavBar/>
-    <FirstViewport/>
+    <ServicesFirstViewport/>
     <div class="w-4/5 py-16 mx-auto services">
       <div class="projectors">
         <h1>Projectors</h1>
@@ -132,10 +132,10 @@
 import TheLogo from "@/components/TheLogo.vue";
 import NavBar from "@/components/NavBar.vue";
 import TheFooter from "@/components/TheFooter.vue";
-import FirstViewport from "@/components/home/FirstViewport.vue";
+import ServicesFirstViewport from "@/components/others/ServicesFirstViewport.vue";
 
 export default {
-  components: { TheLogo, NavBar, TheFooter, FirstViewport }
+  components: { TheLogo, NavBar, TheFooter, ServicesFirstViewport }
 }
 </script>
 <style scoped>
