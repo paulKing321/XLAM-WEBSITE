@@ -6,15 +6,16 @@
       <div class="flex flex-col w-2/5 left gap">
         <div class="flex feature">
           <i class="fa fa-shield"></i>
-          <p class=" feature-text">We are trusted for our quality delivery. We deliver the best.</p>
+          <p class=" feature-text">We have the best sets of projector and projector screen in town, we are available to meet your need for any kind of events. Our projectors are very bright and we can assure you you're getting value for your money.  
+          Call us now.</p>
         </div>
         <div class="flex mb-8 feature md:mb-0">
           <i class="fa fa-shield"></i>
-          <p class="">We take customer satisfaction very serious. Serving You is our priority </p>
+          <p class="">We have led TV with crystal clear images,  our TV screens are without match, we have in various sizes that you want. We are just a phone call away. </p>
         </div>
         <div class="flex feature">
           <i class="fa fa-shield"></i>
-          <p class="">Swift response is our hall mark. No delays.</p>
+          <p class="">We have rechargeable public address systems, you need not worry about how to get a sound system for your presentation. Just call us.</p>
         </div>
       </div>
       <div class="mx-auto mt-8 right md:mt-0 basis-1/2 w-60">

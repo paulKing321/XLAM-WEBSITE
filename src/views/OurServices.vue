@@ -45,9 +45,9 @@
           </div>
         </div>
       </div>
-      <div class="TV-screens">
+      <div class="TV-screens bg-[#F21137]">
         <h1>TV Screens</h1>
-        <div class="flex flex-col items-center justify-between gap md:flex-row">
+        <div class="flex flex-col items-center justify-between gap md:flex-row bg-[#F21137]">
           <div class="single">
             <img src="@/assets/images/tv.jpeg" alt="">
             <div class="overlay"></div>
@@ -202,5 +202,11 @@ img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: linear-gradient(rgba(0,0,0,0.5),#F21137);
+  margin: 50px 0;
 }
 </style>
