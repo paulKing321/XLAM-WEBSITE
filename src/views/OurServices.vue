@@ -4,7 +4,7 @@
     <NavBar/>
     <ServicesFirstViewport/>
     <div class="w-4/5 py-16 mx-auto services">
-      <div class="projectors">
+      <div class="custom-coat projectors">
         <h1>Projectors</h1>
         <div class="grid-class gap">
           <div class="single">
@@ -45,7 +45,7 @@
           </div>
         </div>
       </div>
-      <div class="TV-screens bg-[#F21137]">
+      <div class="TV-screens custom-coat">
         <h1>TV Screens</h1>
         <div class="flex flex-col items-center justify-between gap md:flex-row bg-[#F21137]">
           <div class="single">
@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-      <div class="projector-screens">
+      <div class="custom-coat projector-screens">
         <h1>Projector Screens</h1>
         <div class="flex flex-col items-center justify-between gap md:flex-row">
           <div class="single">
@@ -91,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="sound-systems">
+      <div class="custom-coat sound-systems">
         <h1>Sound Systems</h1>
         <div class="flex flex-col items-center justify-between gap md:flex-row">
           <div class="single">
@@ -117,11 +117,11 @@
     </div>
     
     <!-- reach us -->
-    <div class="justify-center">
+    <div class="justify-center custom-coat">
       <h1>Reach Us Today</h1>
-      <div class="flex gap-x-8">
-        <button>Via PhoneCall</button>
-        <button>Via whatsapp</button>
+      <div class="flex items-center justify-center custom-margin gap-x-12" >
+        <button  class=""><a class="text-sm md:text-xl" href="tel:+2348128482617">Phone</a></button>
+        <button><a class="text-sm md:text-xl" href="https://wa.me/<+2348128482617>" target="_blank">Whatsapp</a></button>
       </div>
     </div>
     <TheFooter/>
@@ -197,16 +197,47 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-@media screen and (max-width: 768px) {
-  .grid-class {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 h1 {
   font-size: 48px;
   font-weight: 500;
   color: linear-gradient(rgba(0,0,0,0.5),#F21137);
   margin: 50px 0;
+}
+@media screen and (max-width: 768px) {
+  .grid-class {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+}
+.custom-coat {
+  background: #f38b78;
+  padding: 0px 10px;
+}
+.custom-margin {
+padding-bottom: 15px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #f38b78;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: #030303;
+  /* font-size: 1.5em; */
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+button:hover{
+  background-color: #fff;
+  animation: slidebg 5s linear infinite;
+  transition: all 2s ease-in;
+}
+@media screen and (max-wdith: 768px) {
+  .custom-font {
+    font-size: 15px;
+  }
 }
 </style>
