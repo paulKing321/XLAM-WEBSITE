@@ -1,4 +1,4 @@
-<template>
+c<template>
   <div class="min-h-screen py-8 mx-auto mt-8 w-5/5 third md:mt-12 md:py-12">
    <h1 class="w-4/5 mx-auto my-6 text-2xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">Why You Should Choose Us</h1>
    
@@ -58,11 +58,12 @@ img {
     height: 370px;
   }
 }
-@media screen and (max-width: 1280px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   img {
-    width: 500px;
+    width: 1200px;
   }
 }
+/* }
 @media screen and (min-width: 1280px) {
   img {
     width: 550px;
@@ -72,7 +73,7 @@ img {
   img {
     width: 600px;
   }
-}
+} */
 .left {
   justify-content: center;
   text-align: left;
@@ -91,16 +92,6 @@ img {
 @media screen and (min-width: 1024px) {
   .gap {
     row-gap: 60px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .gap {
-    row-gap: 80px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .gap {
-    row-gap: 100px;
   }
 }
 .custom-space {
