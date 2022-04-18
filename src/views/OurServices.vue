@@ -232,8 +232,8 @@ button {
 }
 button:hover{
   background-color: #fff;
-  animation: slidebg 5s linear infinite;
-  transition: all 2s ease-in;
+  animation: slidebg 2s linear infinite;
+  transition: all 1s ease-in;
 }
 @media screen and (max-wdith: 768px) {
   .custom-font {
