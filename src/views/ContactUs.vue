@@ -4,11 +4,10 @@
     <NavBar/>
     <ContactFirstViewport/>
     <div class="contact">
-      <h1>Contact Us</h1>
       <ul>
         <li v-for="icon in icons" :key="icon.name">
           <span class="material-icons">{{ icon.name }}</span>
-          <div>{{ icon.text }}</div>
+          <a :href="icon.link">{{ icon.text }}</a>
         </li>
       </ul>
     </div>
@@ -26,10 +25,10 @@ import ContactFirstViewport from "@/components/others/ContactFirstViewport.vue";
 export default {
     setup() {
         const icons = ref([
-            { name: "local_phone", text: "phone"  },
-            { name: "whatsapp", text: "whatsapp" },
-            { name: "alternate_email", text: "email" },
-            { name: "facebook", text: "facebook" }
+            { name: "local_phone", text: "phone",  link: "tel:08128482617"},
+            { name: "whatsapp", text: "whatsapp", link: "https://wa.me/<+2348128482617>" },
+            { name: "alternate_email", text: "email", link: "mailto:oluwadamilare321@gmail.com" },
+            { name: "facebook", text: "facebook", link: "http://www.facebook.com/YOURUSERNAMEHERE" }
         ]);
         return { icons };
     },
@@ -38,10 +37,12 @@ export default {
 </script>
 
 <style scoped>
-.contact {
+.contact span {
+  margin-right: 10px;
+  color: #F21137;
 }
 .contact ul {
-  padding: 0;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
