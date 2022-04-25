@@ -8,10 +8,10 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 
 // global registration of components
-// import NavBar from './components/NavBar.vue'
+// import CookiesPolicy from './components/others/CookiesPolicy.vue'
 // import TheFooter from './components/TheFooter.vue'
 // import { Vue } from 'vue-class-component'
 
 // App.component('NavBar', NavBar)
-// App.component('TheFooter', TheFooter)
+// App.component('CookiesPolicy', CookiesPolicy)
 createApp(App).use(store).use(router).mount('#app')

@@ -5,6 +5,7 @@
    <FirstViewport/>
    <SecondViewport/>
    <ThirdViewport/>
+   <!-- <CookiesPolicy/> -->
    <TheFooter/>
   </div>
 </template>
@@ -30,6 +31,7 @@ import TheFooter from '../components/TheFooter.vue';
 import FirstViewport from '../components/home/FirstViewport.vue'; // @ is an alias to /src
 import SecondViewport from '../components/home/SecondViewport.vue';
 import ThirdViewport from '../components/home/ThirdViewport.vue';
+// import CookiesPolicy from '@/components/others/CookiesPolicy.vue';
 
 export default defineComponent({
   // setup() {
@@ -42,6 +44,7 @@ export default defineComponent({
     FirstViewport,
     SecondViewport,
     ThirdViewport,
+    // CookiesPolicy
 }
 })
 </script>
