@@ -7,14 +7,13 @@
       <ul>
         <li v-for="icon in icons" :key="icon.name">
           <span class="material-icons">{{ icon.name }}</span>
-          <a :href="icon.link">{{ icon.text }}</a>
+          <a :href="icon.link" target="blank">{{ icon.text }}</a>
         </li>
       </ul>
     </div>
     <TheFooter/>
   </div>
 </template>
-
 <script lang="ts">
 import { ref } from "vue";
 import TheLogo from "@/components/TheLogo.vue";
@@ -27,8 +26,8 @@ export default {
         const icons = ref([
             { name: "local_phone", text: "phone",  link: "tel:08128482617"},
             { name: "whatsapp", text: "whatsapp", link: "https://wa.me/<+2348128482617>" },
-            { name: "alternate_email", text: "email", link: "mailto:oluwadamilare321@gmail.com" },
-            { name: "facebook", text: "facebook", link: "http://www.facebook.com/YOURUSERNAMEHERE" }
+            { name: "alternate_email", text: "email", link: "mailto:XlamMultimedia@gmail.com" },
+            { name: "facebook", text: "facebook", link: "http://www.facebook.com/X-lam Media" }
         ]);
         return { icons };
     },
