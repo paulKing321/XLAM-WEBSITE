@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen bg-[#F21137]">
+  <div class="w-full min-h-screen bg">
     <TheLogo/>
     <NavBar/>
     <ContactFirstViewport/>
@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style scoped>
+.bg {
+   background: linear-gradient(rgba(0,0,0,0.5),#68020F);
+}
 .contact span {
   margin-right: 10px;
   color: #F21137;
