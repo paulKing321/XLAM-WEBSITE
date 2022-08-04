@@ -1,37 +1,48 @@
 <template>
   <div class="first">
     <div class="w-4/5 pt-56 mx-auto first-text md:pt-60">
-      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
-      <p>Your surest audio visual equipments plug</p>
+      <h1 class="animate__animated animate__zoomIn animate__fast my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">X</span>LAM <span class="red-text">M</span>ultimedia</h1>
+      <p class="animate__animated animate__zoomInUp animate__slow">Your surest audio visual equipments plug</p>
     </div>
     <div class="first-btn">
-      <router-link class="a" to="/services"><span></span>Our Services</router-link>
-      <router-link class="a" to="/contact-us"><span></span>Reach Us</router-link>
+      <router-link class="a animate__animated animate__zoomInLeft animate__delay-2s" to="/services"><span></span>Our Services</router-link>
+      <router-link class="a animate__animated animate__zoomInRight animate__delay-2s" to="/contact-us"><span></span>Reach Us</router-link>
     </div>
     <div class="justify-center hidden w-4/5 mx-auto mt-20 text-base text-white xl:mt-32 xl:text-xl md:grid-cols-3 md:grid">
       <div class="flex gap-x-8">
         <i class="fa-solid fa-droplet"></i>
-        <h1>Quality Delivery</h1>
+        <h1 class="animate__animated animate__flipInY animate__delay-3s">Quality Delivery</h1>
       </div>
       <div class="flex gap-x-8">
         <i class="fa-solid fa-droplet"></i>
-        <h1>Customer Satisfaction</h1>
+        <h1 class="animate__animated animate__flipInY animate__delay-3s">Customer Satisfaction</h1>
       </div>
       <div class="flex gap-x-8">
         <i class="fa-solid fa-droplet"></i>
-        <h1>Swift Response</h1>
+        <h1 class="animate__animated animate__flipInY animate__delay-3s">Swift Response</h1>
       </div>
     </div>
   </div>
 </template>
 
 // <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, onMounted, ref } from 'vue'
+// import type { Ref } from 'vue'
 
 export default defineComponent({
-  // setup() {
-  //   const
-  // },
+  setup() {
+    let show = ref<boolean>(false);
+
+    function showAnimation() {
+      show = ref<boolean>(true);
+    }
+
+    onMounted(() => {
+      showAnimation()
+      console.log(show.value)
+    })
+      return {show, showAnimation}
+  },
 })
 </script>
 
