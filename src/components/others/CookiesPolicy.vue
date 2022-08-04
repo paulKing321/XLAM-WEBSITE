@@ -5,7 +5,7 @@
       <c-text pt="7px">By using this website, you agree to our
       <span as="router-link" to="/cookies" class="cookies-link">use of cookies.</span>
       We use cookies to give you a great browsing experience.
-      <span @click="acceptCookie" class="accept-button">Accept</span></c-text>
+      <span @click="acceptCookie()" class="accept-button">Accept</span></c-text>
     </div>
   </div>
 </template>
@@ -21,7 +21,13 @@ export default defineComponent({
     //   cookies: false
     // })
     // return { ...toRefs(state) }
-    const cookies = ref(false)
+    let cookies = ref<boolean>(false)
+
+    // function acceptCookie() {
+    //   console.log('accept cookie isbeing called')
+    //   cookies=ref(true)
+    //   console.log(cookies.value)
+    // }
     return {cookies}
   },
   methods: {
