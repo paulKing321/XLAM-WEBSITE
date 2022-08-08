@@ -1,9 +1,9 @@
 <template>
   <div class="first">
-    <div class="w-4/5 pt-56 mx-auto custom-padding first-text md:pt-60">
-      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-9xl"><span class="red-text">F</span>requently <span class="red-text">A</span>sked<span class="red-text">Q</span>uestions</h1>
-      <p>Your surest audio visual equipments plug</p>
-      <p class="mt-24 text-white">Do you need high definition projectors or Led Screen or Led Tv to make your events come to life or you need just for your presentation or for your wedding slideshow then look no further, at Xlam Multimedia Services we've got you covered. We are here to add colors to your events. </p>
+    <div class="w-4/5 pt-56 mx-auto custom-padding first-text md:pt-48">
+      <h1 class="my-4 text-4xl font-bold md:text-7xl lg:text-8xl xl:text-8xl animate__animated animate__backInDown animate__fast"><span class="red-text">F</span>requently <span class="red-text"> A</span>sked<span class="red-text"> Q</span>uestions</h1>
+      <p class="animate__animated animate__zoomIn animate__delay-1s mt-8">Your surest audio visual equipments plug</p>
+      <p class="mt-24 text-white animate__animated animate__backInUp animate__fast">Do you need high definition projectors or Led Screen or Led Tv to make your events come to life or you need just for your presentation or for your wedding slideshow then look no further, at Xlam Multimedia Services we've got you covered. We are here to add colors to your events. </p>
     </div>
     </div>
 </template>
