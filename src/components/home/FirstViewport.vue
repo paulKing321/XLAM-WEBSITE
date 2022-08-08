@@ -29,12 +29,15 @@
 import { defineComponent, onMounted, ref } from 'vue'
 // import type { Ref } from 'vue'
 
+// interface ShowType {
+//   show: boolean;
+// }
 export default defineComponent({
   setup() {
-    let show = ref<boolean>(false);
+    let show = ref(false);
 
     function showAnimation() {
-      show = ref<boolean>(true);
+      show = ref(true);
     }
 
     onMounted(() => {
